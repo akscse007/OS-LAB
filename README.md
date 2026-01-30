@@ -5,65 +5,43 @@ This repository contains Operating Systems Lab programs implemented in Java, cov
 
 The project is structured module-wise for easy understanding and execution, following standard academic OS lab requirements.
 
-🧠 Concepts Covered
-🖥️ CPU Scheduling Algorithms
 
-FCFS (First Come First Serve)
 
-SJF (Shortest Job First)
-
-SRTF (Shortest Remaining Time First)
-
-Priority Scheduling
-
-Round Robin Scheduling
-
-💾 Disk Scheduling Algorithms
-
-FCFS Disk Scheduling
-
-SSTF (Shortest Seek Time First)
-
-SCAN
-
-C-SCAN
-
-LOOK
-
-CLOCK
-
-🧮 Memory Allocation
-
-First Fit
-
-Best Fit
-
-📄 Page Replacement Algorithms
-
-FIFO
-
-LRU
-
-LFU
-
-🔄 Process Synchronization
-
-Dining Philosophers Problem
-
-Producer–Consumer Problem
-
-Readers–Writers Problem
-
-⚙️ Requirements
-
-Java JDK 8 or above
-
-IDE such as:
-
-IntelliJ IDEA (recommended)
-
-Eclipse
-
-VS Code
-
-Basic understanding of Operating System concepts
+OS Lab/
+│
+├── DISK Scheduling/
+│   └── src/
+│       ├── CLOCKDiskScheduling.java
+│       ├── CSCANDiskScheduling.java
+│       ├── FCFSDiskScheduling.java
+│       ├── LOOKDiskScheduling.java
+│       ├── SCANDiskScheduling.java
+│       └── SSTFDiskScheduling.java
+│
+├── MemoryAllocation/
+│   └── src/
+│       ├── BestFitMemoryAllocation.java
+│       └── FirstFitMemoryAllocation.java
+│
+├── PAGE REPLACEMENT/
+│   └── src/
+│       ├── FIFOPageReplacement.java
+│       ├── LFUPageReplacement.java
+│       └── LRUPageReplacement.java
+│
+├── Scheduling Algorithms/
+│   └── src/
+│       ├── FCFSScheduling.java
+│       ├── PriorityScheduling.java
+│       ├── Process.java
+│       ├── RRSCheduling.java
+│       ├── SJFScheduling.java
+│       └── SRTFScheduling.java
+│
+├── Synchronization/
+│   └── src/
+│       ├── Dining_Philosophers/
+│       ├── Producer_Consumer/
+│       └── Readers_Writer/
+│
+└── README.md
